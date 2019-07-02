@@ -1,0 +1,131 @@
+@media screen and (max-width: 980px) {
+    /* Menu Icon */
+    .menu-open {
+        float: right;
+        display: block !important;
+        position: absolute;
+        top: 78px;
+        right: 30px;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+        font-size: 0;
+        text-indent: -9999px;
+        appearance: none;
+        box-shadow: none;
+        border-radius: 0px;
+        border: none;
+        cursor: pointer;
+        transition: background 0.3s;
+        z-index: 10;
+        outline: none;
+    }
+    .menu-open span {
+        display: block;
+        position: absolute;
+        top: 14px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 3px;
+        background: #419fd9;
+    }
+    .menu-open span::before, 
+    .menu-open span::after {
+        position: absolute;
+        display: block;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background-color: #419fd9;
+        content: "";
+    }
+    
+    .menu-open span::before {
+        top: -9px;
+    }
+    .menu-open span::after {
+        bottom: -9px;
+    }
+
+    .menu-close,
+    .menu-close:hover {
+        background: transparent;
+    }
+
+    .menu-close span {
+        transition: background 0s 0.3s;
+    }
+
+    .menu-close span::before, 
+    .menu-close span::after {
+        transition-duration: 0.3s, 0.3s;
+        transition-delay: 0.3s, 0s;
+    }
+
+    .menu-close span::before {
+        transition-property: top, transform;
+    }
+
+    .menu-close span::after {
+        transition-property: bottom, transform;
+    }
+
+    .menu-close.is-active span {
+        background: none;
+    }
+
+    .menu-close.is-active span::before, 
+    .menu-close.is-active span::after {
+        transition-delay: 0s, 0.3s;
+    }
+
+    .menu-close.is-active span::before {
+        top: 0;
+        transform: rotate(45deg);
+    }
+
+    .menu-close.is-active span::after {
+        bottom: 0;
+        transform: rotate(-45deg);
+    }
+
+    /* Main Navigation */
+    .site-header-menu {
+        position: fixed;
+        top: 0px;
+        right: 0;
+        left: 0;
+        height: 0;
+        background-color: rgba(0, 0, 0, 0.87);
+        overflow: hidden;
+        transition: all 0.5s, transform 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+        margin-top: 0;
+        text-align: right;
+        z-index: 1;
+    }
+
+    .site-header-menu.is-open {
+        height: 100%;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+        z-index: 10;
+        padding: 20px 50px;
+    }
+
+    .site-header-menu {
+        text-align: left;
+    }
+
+    .navigation nav {
+        display: block;
+        width: 100%;
+    }
+
+    .navigation nav {
+        padding-top: 10%;
+        padding-left: 10%;
+    }
+}

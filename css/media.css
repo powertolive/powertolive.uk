@@ -1,0 +1,489 @@
+@media only screen and (max-width: 1140px) {
+	.container {
+		width: 90%;
+	}
+
+	nav li {
+	    margin-right: 25px;
+	    font-size: 14px;
+	}
+
+	nav li.contact-btn .btn {
+		width: 150px;
+	}
+
+	.banner .right-block {
+	    width: 40%;
+	    padding-right: 25px;
+	}
+
+	.wrap span {
+	    line-height: 20px;
+	    width: calc(100% - 120px);
+	    margin-top: 5px;
+	    text-align: right;
+	}
+
+	.pink-block {
+		right: 0;
+	}
+
+	.homepage.contact .left-block {
+	    width: 36%;
+	}
+
+	.homepage.contact .right-block {
+	    width: 34%;
+	    padding: 0 5% 76px;
+	}
+}
+
+@media only screen and (max-width: 980px) {
+	nav li {
+		display: block;
+	}
+
+	nav li a {
+		color: #fff;
+	}
+
+	nav li.contact-btn {
+		float: none;
+		margin-top: 20px;
+	}
+
+	.menu-open.menu-close.is-active {
+	    top: 30px;
+	    position: fixed;
+	}
+
+	#peace-of-mind .right-block img,
+	.therapists .left-block img {
+		width: 100%;
+	}
+
+	.therapists {
+		padding: 150px 0;
+	}
+
+	.events {
+		padding-bottom: 110px;
+	}
+
+	.event {
+		width: 32%;
+	}
+
+	.event-content {
+	    padding: 37px 28px;
+	}
+
+	.contact .flex {
+		flex-wrap: wrap;
+	}
+
+	.homepage.contact .left-block {
+	    width: 55%;
+	}
+
+	.homepage.contact .right-block {
+	    width: 32%;
+	    border-left: none;
+	    border-right: none;
+	    padding: 0 0 76px;
+	}
+
+	.homepage.contact {
+		padding-bottom: 60px;
+	}
+
+	.add-padding {
+	    padding: 0 90px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.flex {
+	    flex-direction: column;
+	}
+
+	header:after {
+		display: none;
+	}
+
+	.menu-open {
+		top: 48px;
+	}
+
+	.left-block,
+	.right-block {
+		width: 100%;
+		float: none;
+	}
+
+	.banner:after {
+	    width: 100%;
+	    border-bottom-left-radius: 136px;
+	}
+
+	.banner .right-block {
+	    width: 100%;
+	    padding-right: 0;
+	    padding-left: 40px;
+	    padding-top: 30px;
+	    margin-bottom: 30px;
+	    box-sizing: border-box;
+	}
+
+	.banner-left {
+	    order: 2;
+	}
+
+	.banner .right-block {
+	    order: 1;
+	}
+
+	.top-header {
+		display: none;
+	}
+
+	.banner.training-banner:after {
+	    content: "";
+	    height: 77%;
+	    border-bottom-left-radius: 0;
+	    left: auto;
+	    border-top-right-radius: 0;
+	    right: 0;
+	    top: 0;
+	    border-top-left-radius: 136px;
+	}
+
+	.training-content .btn {
+		width: 90%;
+		max-width: 550px;
+	}
+
+	.banner.training-banner {
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+
+	.treatments.training {
+		padding-top: 50px;
+	}
+
+	.training-banner .btn {
+		width: 90%;
+		max-width: 300px;
+		font-size: 14px;
+
+	}
+
+	.banner.treatment-banner {
+	    padding-bottom: 0;
+	    background: #eaeaea;
+	    padding-top: 60px;
+	}
+
+	.banner.treatment-banner:after {
+	    width: 100%;
+	    height: 80%;
+	    border-top-left-radius: 136px;
+	    border-bottom-left-radius: 0;
+	}
+
+	.contact-form.left-block {
+	    order: 2;
+	    margin-top: 70px;
+	}
+
+	.treatment-content {
+	    padding: 33px 60px 23px;
+	}
+
+	.treatments {
+	    padding: 40px 0 0;
+	}
+
+	.treatments h1 {
+		margin-bottom: 25px;
+	}
+
+	.intro-text {
+		margin-bottom: 72px;
+	}
+
+	.contact .right-block,
+	.homepage.contact .right-block,
+	.homepage.contact .left-block {
+	    width: 100%;
+	}
+
+	.homepage.contact .right-block {
+		padding: 0 0 30px;
+		border: 0;
+	}
+
+	.contact,
+	.homepage.contact {
+	    padding: 60px 0 76px;
+	}
+
+	p {
+		word-break: break-word;
+	}
+
+	.banner-left {
+		display: none;
+	}
+
+	.banner {
+	    padding: 60px 0 80px;
+	    margin-bottom: 47px;
+	}
+
+	.banner:before,
+	.donate {
+		display: none;
+	}
+
+	#client {
+	    margin-bottom: 69px;
+	}
+
+	.grid-images {
+	    margin-bottom: 49px;
+	}
+
+	#client .left-block {
+	    width: 100%;
+	}
+
+	.grid-images,
+	.counter-sec,
+	.events-wrapper {
+		overflow-y: scroll;
+	}
+
+	.grid-images .flex,
+	.counter-sec .flex,
+	.events-wrapper .flex {
+		flex-direction: row;
+	}
+
+	.fixed-width {
+		width: 1000px;
+	}
+
+	#peace-of-mind {
+		margin-bottom: 60px;
+	}
+
+	#peace-of-mind h1 {
+		margin-bottom: 30px;
+	}
+
+	#peace-of-mind .right-block {
+		margin-top: 24px;
+	}
+
+	#peace-of-mind .right-block img {
+	    width: 100%;
+	    position: relative;
+	    left: -110px;
+	}
+
+	.pink-block {
+	    top: 12%;
+	}
+
+	.therapists h1 {
+		margin-bottom: 27px;
+	}
+
+	.therapists .left-block {
+		order: 2;
+		margin-top: 55px;
+	}
+
+	.therapists .right-block {
+	    width: 100%;
+	}
+
+	.therapists {
+	    padding: 64px 0 0;
+	    margin-top: 47px;
+	    background: #f8f8f8 url(../images/therapists-bg.svg) no-repeat top center;
+	    background-size: 1080px;
+	}
+
+	.events {
+	    padding-top: 60px;
+	    padding-bottom: 5px;
+	}
+
+	.events h1 {
+	    margin-bottom: 26px;
+	}
+
+	.events .container {
+		width: 100%;
+	}
+
+	.event {
+		width: 316px;
+	}
+
+	.events-wrapper {
+		padding: 0 5% 80px;
+		margin-top: 52px;
+	}
+
+	.connection-groups .pre-heading {
+		margin-bottom: 28px;
+	}
+
+	#peace-of-mind .left-block {
+		padding-right: 0;
+	}
+
+	.connection-groups h1 {
+		margin-bottom: 25px;
+	}
+
+	.intro {
+		max-width: 80%;
+	}
+
+	.treatment-banner .banner-left,
+	.training-banner .banner-left {
+		display: block;
+	}
+
+	.treatment-banner {
+		margin-bottom: 0;
+	}
+
+	.treatment-banner.banner .right-block {
+		margin-bottom: 0;
+		padding-bottom: 32px;
+	}
+
+	.address-block h1 {
+		margin-bottom: 38px;
+	}
+
+	.treatment-block {
+	    margin-bottom: 44px;
+	}
+
+	#terms-popup .popup {
+	    width: auto;
+	    top: 20px;
+	    height: auto;
+	    left: 20px;
+	    bottom: 20px;
+	    right: 20px;
+	    overflow-y: scroll;
+	}
+
+	.popup_head h1 {
+		width: 90%;
+	}
+
+	.popup {
+	    width: 90%;
+	    left: 5%;
+	    right: 5%;
+	    overflow-y: scroll;
+	}
+
+	.add-padding {
+	    padding: 0 40px;
+	}
+
+	.donation_block h1 br {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	#client h1, 
+	.counter .number, 
+	.therapists h1, 
+	.events h1, 
+	.event-content h2, 
+	.connection-groups h1, 
+	.address-block h1, 
+	.treatments h1, 
+	.treatment-content h2 {
+	    font-size: 30px;
+	    line-height: 42px;
+	    margin: 0 0 34px;
+	}
+
+	.wrap span {
+	    margin-top: 25px;
+	    text-align: left;
+	    width: 100%;
+	}
+
+	.banner-left {
+		height: 356px;
+	}
+
+	.treatment-content {
+	    padding: 33px 40px 23px;
+	}
+
+	.banner .right-block {
+		padding-left: 20px;
+	}
+
+	.banner .right-block img {
+		display: none;
+	}
+
+	#peace-of-mind .right-block img, #peace-of-mind .right-block img,
+	.therapists .left-block img {
+		width: 100%;
+	}
+
+	.add-padding {
+	    padding: 0 10px;
+	}
+
+	.popup a {
+	    word-break: break-all;
+	}
+
+	#peace-of-mind {
+	    margin-bottom: 120px;
+	}
+
+	.therapists {
+	    background-size: 1260px;
+	}
+
+	.events {
+		padding-top: 20px;
+	}
+}	
+
+@media only screen and (max-height: 700px) {
+	#terms-popup .popup {
+	    height: 640px;
+	    top: calc(50% - 320px);
+	    overflow-y: scroll;
+	}
+}
+
+@media only screen and (max-height: 600px) {
+	#terms-popup .popup,
+	.popup {
+	    height: auto;
+	    top: 20px;
+	    overflow-y: scroll;
+	    bottom: 20px;
+	}
+}
