@@ -408,14 +408,14 @@
 }
 
 @media only screen and (max-width: 480px) {
-	#client h1, 
-	.counter .number, 
-	.therapists h1, 
-	.events h1, 
-	.event-content h2, 
-	.connection-groups h1, 
-	.address-block h1, 
-	.treatments h1, 
+	#client h1,
+	.counter .number,
+	.therapists h1,
+	.events h1,
+	.event-content h2,
+	.connection-groups h1,
+	.address-block h1,
+	.treatments h1,
 	.treatment-content h2 {
 	    font-size: 30px;
 	    line-height: 42px;
@@ -468,7 +468,7 @@
 	.events {
 		padding-top: 20px;
 	}
-}	
+}
 
 @media only screen and (max-height: 700px) {
 	#terms-popup .popup {
