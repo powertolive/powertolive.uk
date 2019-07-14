@@ -439,7 +439,7 @@ nav li.contact-btn {
 
 .event-2 {
 	background: url(../images/event-3.jpg) no-repeat top center;
-	background-size: cover;	
+	background-size: cover;
 }
 
 .events-wrapper {
@@ -506,7 +506,7 @@ nav li.contact-btn {
 .contact {
     background: #EAEAEA;
     padding: 92.8px 0 76px;
-} 
+}
 
 .homepage.contact {
 	padding: 92.8px 0 0;
@@ -527,7 +527,7 @@ textarea {
 	font-family: 'HelveticaNeue';
 	line-height: 35px;
 	width: 100%;
-	margin-bottom: 19px;
+	margin-top: 19px;
 	box-sizing: border-box;
 }
 
@@ -539,9 +539,10 @@ textarea {
 	border-radius: 23px;
 }
 
-.wrap {
+.contact .wrap {
 	overflow: hidden;
 	width: 100%;
+	margin-top: 19px;
 }
 
 .contact .btn {

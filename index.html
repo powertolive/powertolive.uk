@@ -359,15 +359,51 @@
 
     <section id="contact-us" class="contact">
       <div class="container flex">
-        <form
-          class="contact-form left-block"
-          action="https://script.google.com/macros/s/AKfycbwO4tI4Z11DG1k75GfX8qalr3AGM4bJ-ejB2tNMPoS8daqX9Hts/exec"
-        >
-          <input type="text" placeholder="Name" class="text-field" />
-          <input type="email" placeholder="Email" class="text-field" />
-          <textarea placeholder="Message"></textarea>
+        <form id="contact-form" class="contact-form left-block">
+          <input
+            id="name"
+            name="name"
+            type="text"
+            placeholder="Full name (Required)"
+            class="text-field"
+            required
+          />
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Email address (Required)"
+            class="text-field"
+            required
+          />
+          <input
+            id="phone"
+            name="phone"
+            type="tel"
+            placeholder="Phone number (Optional)"
+            class="text-field"
+          />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Message (Required)"
+            required
+          ></textarea>
           <div class="wrap">
-            <input type="submit" class="btn border-btn" value="Send" />
+            <input type="hidden" name="time" id="consent-time" />
+            <input type="hidden" name="date" id="consent-date" />
+            <input
+              type="hidden"
+              name="consent"
+              id="consent-accepted"
+              value="Yes, consent is accepted by client"
+            />
+            <input
+              id="submit"
+              type="submit"
+              class="btn border-btn"
+              value="Send"
+            />
             <span
               >By clicking send you agree to our
               <a href="#terms-popup" class="terms_conditions"
@@ -500,7 +536,8 @@
       </div>
     </section>
 
-    <script src="js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
