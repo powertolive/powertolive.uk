@@ -439,7 +439,7 @@ nav li.contact-btn {
 
 .event-2 {
 	background: url(../images/event-3.jpg) no-repeat top center;
-	background-size: cover;
+	background-size: cover;	
 }
 
 .events-wrapper {
@@ -506,7 +506,7 @@ nav li.contact-btn {
 .contact {
     background: #EAEAEA;
     padding: 92.8px 0 76px;
-}
+} 
 
 .homepage.contact {
 	padding: 92.8px 0 0;

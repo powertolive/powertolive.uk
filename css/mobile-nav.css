@@ -32,7 +32,7 @@
         height: 3px;
         background: #419fd9;
     }
-    .menu-open span::before,
+    .menu-open span::before, 
     .menu-open span::after {
         position: absolute;
         display: block;
@@ -42,7 +42,7 @@
         background-color: #419fd9;
         content: "";
     }
-
+    
     .menu-open span::before {
         top: -9px;
     }
@@ -59,7 +59,7 @@
         transition: background 0s 0.3s;
     }
 
-    .menu-close span::before,
+    .menu-close span::before, 
     .menu-close span::after {
         transition-duration: 0.3s, 0.3s;
         transition-delay: 0.3s, 0s;
@@ -77,7 +77,7 @@
         background: none;
     }
 
-    .menu-close.is-active span::before,
+    .menu-close.is-active span::before, 
     .menu-close.is-active span::after {
         transition-delay: 0s, 0.3s;
     }
