@@ -1,0 +1,87 @@
+<section id="contact-us" class="contact">
+  <div class="container flex">
+    <form id="contact-form" class="contact-form left-block">
+      <input
+        id="name"
+        name="name"
+        type="text"
+        placeholder="Full name (Required)"
+        class="text-field"
+        required
+      />
+      <input
+        id="email"
+        name="email"
+        type="email"
+        placeholder="Email address (Required)"
+        class="text-field"
+        required
+      />
+      <input
+        id="phone"
+        name="phone"
+        type="tel"
+        placeholder="Phone number (Optional)"
+        class="text-field"
+      />
+      <textarea
+        name="message"
+        id="message"
+        placeholder="Message (Required)"
+        required
+      ></textarea>
+      <div class="wrap">
+        <input type="hidden" name="time" id="consent-time" />
+        <input type="hidden" name="date" id="consent-date" />
+        <input
+          type="hidden"
+          name="consent"
+          id="consent-accepted"
+          value="Yes, consent is accepted by client"
+        />
+        <input id="submit" type="submit" class="btn border-btn" value="Send" />
+        <span
+          >By clicking send you agree to our
+          <a href="#terms-popup" class="terms_conditions"
+            >terms and conditions</a
+          ></span
+        >
+      </div>
+    </form>
+
+    <div class="address-block right-block">
+      <h1>Contact Us</h1>
+      <address>
+        <span>Power to Live Foundation</span>
+        <span>Winkfield Resource Centre</span>
+        <span>33 Winkfield Road</span>
+        <span>Wood Green</span>
+        <span>London</span>
+        <span>N22 5RP</span>
+        <span>United Kingdom</span>
+      </address>
+
+      <a href="mailto:info@powertolive.uk">info@powertolive.uk</a>
+
+      <p>Registered with Charity Commission number 1181997</p>
+
+      <ul class="social-links">
+        <!--
+        <li>
+          <a href="#"><img src="images/facebook-icon.svg" alt="facebook" /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="images/instagram-icon.svg" alt="instagram"
+          /></a>
+        </li>
+        -->
+        <li>
+          <a href="https://twitter.com/peacefulminduk" target="_blank"
+            ><img src="images/twitter-icon.svg" alt="twitter"
+          /></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
