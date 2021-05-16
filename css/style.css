@@ -13,12 +13,8 @@ ul {
 }
 
 a {
-	color: #464646;
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
+	color: #409FD9;
+	font-weight: bold;
 }
 
 p {
@@ -48,6 +44,7 @@ input[type="submit"],
     display: block;
     text-align: center;
     cursor: pointer;
+	text-decoration: none;
 }
 
 .border-btn {
@@ -181,12 +178,6 @@ nav li {
 	line-height: 42px;
 }
 
-nav li.contact-btn {
-	float: right;
-	text-transform: capitalize;
-	margin-right: 0;
-}
-
 .site-header-menu li a.active,
 .site-header-menu li:hover a {
 	border-bottom: 1px solid #171717;
@@ -287,6 +278,7 @@ nav li.contact-btn {
 .connection-groups h1,
 .address-block h1,
 .treatments h1,
+.contact h1,
 .treatment-content h2,
 .donation_block h1 {
 	font-family: 'HelveticaNeue-CondensedBold';
@@ -389,6 +381,7 @@ nav li.contact-btn {
 
 .therapists .btn {
 	border-color: #fff;
+	color: #fff;
 }
 
 .therapists strong {
@@ -421,7 +414,6 @@ nav li.contact-btn {
 }
 
 .event {
-    width: 30%;
     border-radius: 5px;
     box-shadow: 0 3px 50px rgba(0, 0,0,0.1);
 }
@@ -456,31 +448,15 @@ nav li.contact-btn {
     margin-bottom: 28px;
 }
 
-.event span {
+.event span,.event address {
     display: block;
     font-size: 15px;
     color: #000;
     font-family: 'HelveticaNeue-Bold';
 }
 
-.event address {
-	margin-top: 22px;
-	font-style: normal;
-}
-
 .event p {
-    padding-left: 20px;
-    margin-top: 45px;
-    position: relative;
-    margin-bottom: 0;
-}
-
-.event p:before {
-	content: '';
-	border-left: 3px solid #464646;
-	height: 95px;
-	position: absolute;
-	left: 0;
+    margin: 1em 0;
 }
 
 .connection-groups {
@@ -505,11 +481,11 @@ nav li.contact-btn {
 /* Contact Section */
 .contact {
     background: #EAEAEA;
-    padding: 92.8px 0 76px;
+    padding: 76px 0;
 }
 
-.homepage.contact {
-	padding: 92.8px 0 0;
+.contact h1{
+	text-align: center;
 }
 
 .contact .flex {
@@ -858,4 +834,32 @@ textarea {
 
 .terms_conditions {
     text-decoration: underline;
+}
+
+.site-header-menu a {
+	color: #464646;
+	text-decoration: none;
+}
+
+.site-header-menu a:hover {
+	text-decoration: underline;
+}
+
+.contact-btn {
+	float: right;
+	text-transform: capitalize;
+	margin-right: 0;
+}
+.contact-btn a {
+	color: white;
+}
+
+.banner .btn {
+	border-color: white;
+	color: white;
+}
+
+.registration-form{
+	text-align: center;
+	margin: 3em auto;
 }
