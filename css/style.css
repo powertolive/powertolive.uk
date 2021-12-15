@@ -420,6 +420,14 @@ nav li {
   width: 47%;
 }
 
+.notice {
+  background: #f8f8f8;
+  background-size: cover;
+  border-radius: 5px;
+  border: 2px solid #d940bc;
+  margin: 1em 0;
+}
+
 /* Events */
 
 .events {
